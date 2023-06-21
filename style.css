@@ -1,0 +1,76 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    background-color: powderblue;
+    align-items: center;
+    justify-items: center;
+}
+.cover-text{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 30px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+.secondary{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.top-cloud{
+    align-self: flex-end;
+    margin: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.cloud{
+    align-self: flex-start;
+}
+.mountain{
+    display: flex;
+    justify-items: center;
+}
+.profile-image{
+    border-radius: 50%;
+    margin: 50px;
+}
+.profile{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: .4fr .6fr;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+.text{
+    margin-top: 250px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #11cdd4;
+    color: white;
+}
+.new{
+    background-color: #11cdd4;
+}
+.contact{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
